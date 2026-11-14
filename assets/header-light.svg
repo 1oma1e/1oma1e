@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="1oma1e — I build honest software">
+  <defs>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.5" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#c026d3"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <clipPath id="frame"><rect width="1200" height="360" rx="20"/></clipPath>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#d0d7de" stroke-width="1" opacity="0.45"/>
+    </pattern>
+    <style>
+      .orb { animation: drift 18s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center; }
+      .o2 { animation-duration: 22s; animation-direction: alternate-reverse; }
+      .o3 { animation-duration: 26s; }
+      @keyframes drift { 0% { transform: translate(0,0) scale(1); } 100% { transform: translate(60px,-30px) scale(1.15); } }
+      .ln { opacity: 0; animation: show .01s forwards; }
+      @keyframes show { to { opacity: 1; } }
+      .fade { opacity: 0; animation: up .9s cubic-bezier(.2,.7,.2,1) forwards; }
+      @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+      .cur { animation: blink 1s steps(1) infinite; animation-delay: 3s; opacity: 0; }
+      @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .orb, .cur { animation: none; } .ln, .fade { animation: none; opacity: 1; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="#ffffff"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <g filter="url(#blur)" opacity="0.35">
+      <circle class="orb" cx="180" cy="60" r="150" fill="#6366f1"/>
+      <circle class="orb o2" cx="620" cy="330" r="140" fill="#0ea5e9"/>
+      <circle class="orb o3" cx="1080" cy="40" r="160" fill="#c026d3"/>
+    </g>
+    <rect x="0.5" y="0.5" width="1199" height="359" rx="20" fill="none" stroke="#d0d7de"/>
+  </g>
+
+  <g class="fade">
+    <text x="64" y="104" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#59636e">// hi there, I'm</text>
+    <text x="60" y="186" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="88" font-weight="800" letter-spacing="-3" fill="url(#title)">1oma1e</text>
+  </g>
+  <g class="fade" style="animation-delay:.25s">
+    <text x="64" y="236" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#1f2328">I build honest software.</text>
+    <text x="64" y="270" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#59636e">Desktop apps that show what they do, real-time web games,</text>
+    <text x="64" y="294" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#59636e">and a self-hosted homelab that runs it all.</text>
+  </g>
+
+  <g class="fade" style="animation-delay:.15s">
+    <rect x="730" y="70" width="410" height="250" rx="14" fill="#f6f8fa" fill-opacity="0.85" stroke="#d0d7de"/>
+    <circle cx="756" cy="96" r="6" fill="#ff5f57"/>
+    <circle cx="776" cy="96" r="6" fill="#febc2e"/>
+    <circle cx="796" cy="96" r="6" fill="#28c840"/>
+    <text x="935" y="101" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#59636e">~/1oma1e</text>
+    <line x1="730" y1="116" x2="1140" y2="116" stroke="#d0d7de"/>
+    <text class="ln" style="animation-delay:0.40s" x="760" y="150" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#1f2328"><tspan fill="#22c55e">$ </tspan>whoami</text><text class="ln" style="animation-delay:0.75s" x="760" y="176" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#59636e">cs student · france · builder</text><text class="ln" style="animation-delay:1.10s" x="760" y="202" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#1f2328"><tspan fill="#22c55e">$ </tspan>cat principles.txt</text><text class="ln" style="animation-delay:1.45s" x="760" y="228" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#4f46e5">free · local-first · no telemetry</text><text class="ln" style="animation-delay:1.80s" x="760" y="254" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#4f46e5">docs → mockup → code → tests</text><text class="ln" style="animation-delay:2.15s" x="760" y="280" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#1f2328"><tspan fill="#22c55e">$ </tspan>ls ~/projects | wc -l</text><text class="ln" style="animation-delay:2.50s" x="760" y="306" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#59636e">10</text>
+    <rect class="cur" x="760" y="318" width="9" height="18" fill="#22c55e"/>
+  </g>
+</svg>

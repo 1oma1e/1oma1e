@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250" role="img" aria-label="Storm Island: Build a base, craft tools, survive hunger, thirst and natural disasters with up to four players. Server-authoritative, strict types.">
+  <defs>
+    <linearGradient id="g-stormisland-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14b8a6"/><stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <radialGradient id="g-stormisland-light-glow" cx="1" cy="0" r="0.9">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="599" height="249" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="0.5" y="0.5" width="599" height="249" rx="16" fill="url(#g-stormisland-light-glow)"/>
+  <rect x="28" y="24" width="52" height="52" rx="14" fill="url(#g-stormisland-light)"/>
+  <text x="54" y="57.2" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#ffffff">SI</text>
+  <text x="96" y="47" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2328">Storm Island</text>
+  <text x="96" y="70" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#14b8a6">Roblox co-op survival game</text>
+  <rect x="453" y="25" width="119" height="26" rx="13" fill="#d29922" fill-opacity="0.12" stroke="#d29922" stroke-opacity="0.45"/>
+  <circle cx="469" cy="38" r="4" fill="#d29922"/>
+  <text x="481" y="42.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#d29922">In progress</text>
+  <text x="28" y="124" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#59636e">Build a base, craft tools, survive hunger,</text><text x="28" y="148" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#59636e">thirst and natural disasters with up to four</text><text x="28" y="172" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#59636e">players. Server-authoritative, strict types.</text>
+  <rect x="28" y="198" width="52" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de"/><text x="54.0" y="215.5" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#59636e">Luau</text><rect x="88" y="198" width="52" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de"/><text x="114.0" y="215.5" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#59636e">Rojo</text><rect x="148" y="198" width="75" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de"/><text x="185.5" y="215.5" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#59636e">Blender</text><rect x="231" y="198" width="67" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de"/><text x="264.5" y="215.5" text-anchor="middle" font-family="ui-monospace, 'Cascadia Code', SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#59636e">Selene</text>
+</svg>
