@@ -5,6 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/1oma1e/Drivn/releases/latest"><img alt="Drivn" src="https://img.shields.io/badge/Drivn-v1.0.0-6366F1?style=for-the-badge&logo=windows11&logoColor=white"></a>
+  <a href="https://github.com/1oma1e/Hyphn/releases/latest"><img alt="Hyphn" src="https://img.shields.io/github/v/release/1oma1e/Hyphn?style=for-the-badge&label=Hyphn&color=0EA5E9&logo=apple&logoColor=white"></a>
   <a href="https://tchinz.1oma1e.club"><img alt="Tchinz" src="https://img.shields.io/badge/Tchinz-play%20now-D946EF?style=for-the-badge&logo=nextdotjs&logoColor=white"></a>
   <a href="https://tchop.1oma1e.club"><img alt="tchop" src="https://img.shields.io/badge/tchop-live-F43F5E?style=for-the-badge&logo=fastapi&logoColor=white"></a>
   <img alt="Based in France" src="https://img.shields.io/badge/based%20in-France-0EA5E9?style=for-the-badge">
@@ -37,7 +38,7 @@ I like the layer where software meets the real world: **drivers, disks, phones, 
 ## 🧰 Things I build
 
 <a href="#-things-i-build"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/safesweep-dark.svg"><img alt="SafeSweep — Windows disk analyzer that tells you what you can delete safely" src="assets/safesweep-light.svg" width="49%"></picture></a>
-<a href="#-things-i-build"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hyphn-dark.svg"><img alt="Hyphn — iPhone as a 4K60 webcam and file drop for Windows, 100% local" src="assets/hyphn-light.svg" width="49%"></picture></a>
+<a href="https://github.com/1oma1e/Hyphn"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hyphn-dark.svg"><img alt="Hyphn — iPhone as a 4K60 webcam and file drop for Windows, 100% local" src="assets/hyphn-light.svg" width="49%"></picture></a>
 <a href="https://tchinz.1oma1e.club"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tchinz-dark.svg"><img alt="Tchinz — real-time party games for 2 to 30 friends" src="assets/tchinz-light.svg" width="49%"></picture></a>
 <a href="https://tchop.1oma1e.club"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tchop-dark.svg"><img alt="tchop — TikTok and YouTube to MP4 or MP3" src="assets/tchop-light.svg" width="49%"></picture></a>
 <a href="#-things-i-build"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/apphome-dark.svg"><img alt="AppHome Nexus — smart home dashboard over Home Assistant" src="assets/apphome-light.svg" width="49%"></picture></a>
@@ -110,7 +111,7 @@ flowchart LR
 
 ## 🔭 Right now
 
-- 📱 Getting **Hyphn** from a simulated iPhone to a real one: TLS pairing, HEVC streaming, a virtual camera on Windows.
+- 📱 Shipping **[Hyphn](https://github.com/1oma1e/Hyphn)**: an iPhone as a 4K60 Windows webcam over Wi-Fi or USB, with auto updates and an English/French UI.
 - 🏝️ Rebuilding the interface of **Storm Island** and modelling its world in Blender.
 - 🎲 Adding new party games to **Tchinz**. [Come play](https://tchinz.1oma1e.club) with your friends.
 
